@@ -1,0 +1,7 @@
+Working on this smart contract project was an interesting experience for me. At first, I thought it would be extremely difficult. However, as I worked on this project, I realized that the basic concept was actually easy to understand. It was only my own clumsiness that made it feel complicated.
+
+One of the main issues I encountered was a mismatch between the pragma version in my code. I initially wrote the pragma version in the contract as 0.8.20, but in Remix I selected the compiler version 0.8.30. This caused my verification on Etherscan to fail. It took me quite a while to realize that the contract and the compiler must use exactly the same version, which taught me the importance of keeping the compiler version consistent with the code.
+
+I also faced difficulties when I was using Remix itself. The deployment, compilation, and verification processes became very slow and sometimes didn’t respond. This made me frustrated, and I even changed the code several times thinking the problem came from my contract. Eventually, I realized it was mostly due to network issues and I needed to be patient in debugging. 
+
+This experience reminded me to do the troubleshooting step by step calmly and not rush to change things. I learned that blockchain development often involves trial and error, and I learned to overcome problems with patience and persistence. More importantly, by solving these practical problems gave me a deeper appreciation of the whole process.
